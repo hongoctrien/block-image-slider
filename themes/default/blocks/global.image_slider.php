@@ -132,6 +132,13 @@ if (! nv_function_exists('nv_block_image_slider')) {
             }
             
             $xtpl->assign('IMAGE', $image);
+            
+            if(nv_is_url($image['link'])){
+                $xtpl->parse('main.image.link');
+            }else{
+                $xtpl->parse('main.image.nolink');
+            }
+            
             $xtpl->parse('main.image');
             
             if(!empty($image['description'])){
