@@ -9,10 +9,10 @@
 	<div id="slider" class="nivoSlider">
 		<!-- BEGIN: image -->
 			<!-- BEGIN: link -->
-			<a href="{IMAGE.link}" title=""><img src="{IMAGE.path}" data-thumb="{IMAGE.thumb}" alt="" title="#description-{IMAGE.index}" /></a>
+			<a href="{IMAGE.link}" title=""><img src="{IMAGE.path}" data-thumb="{IMAGE.thumb}" alt="" <!-- BEGIN: caption -->title="#description-{IMAGE.index}"<!-- END: caption --> /></a>
 			<!-- END: link -->
 			<!-- BEGIN: nolink -->
-			<img src="{IMAGE.path}" data-thumb="{IMAGE.thumb}" alt="" title="#description-{IMAGE.index}" />
+			<img src="{IMAGE.path}" data-thumb="{IMAGE.thumb}" alt="" <!-- BEGIN: caption -->title="#description-{IMAGE.index}"<!-- END: caption --> />
 			<!-- END: nolink -->
 		<!-- END: image -->
 	</div>
