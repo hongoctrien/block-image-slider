@@ -25,7 +25,7 @@
 
 <script type="text/javascript" src="{NV_BASE_SITEURL}themes/{TEMPLATE}/js/nivoslider/jquery.nivo.slider.js"></script>
 <script type="text/javascript">
-$(window).load(function() {
+$(window).on('load', function() {
     $('#slider').nivoSlider();
 });
 </script>
